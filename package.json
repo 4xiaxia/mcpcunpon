@@ -1,0 +1,36 @@
+{
+  "name": "coupon-mcp-server",
+  "version": "0.1.2",
+  "private": false,
+  "type": "module",
+  "description": "Minimal MCP server that proxies coupon APIs (no DB, no auth)",
+  "main": "server.js",
+  "bin": {
+    "coupon-mcp-server": "server.js"
+  },
+  "files": [
+    "server.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node server.js",
+    "dev": "NODE_ENV=development node server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.5.0",
+    "dotenv": "^16.4.5",
+    "undici": "^6.19.8"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "tools",
+    "coupon",
+    "proxy"
+  ]
+}

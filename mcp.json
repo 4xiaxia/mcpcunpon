@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "coupon": {
+      "command": "node",
+      "args": [
+        "server.js"
+      ],
+      "env": {
+        "BASE_URL": "https://mcpcounpon.onrender.com"
+      }
+    }
+  }
+}
